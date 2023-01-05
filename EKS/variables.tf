@@ -5,6 +5,7 @@
 variable "cluster-name" {
   default = "terraform-eks-demo"
   type    = string
+  default = "kopskey"
 }
 variable "key_pair_name" {
   default = "kopskey"
